@@ -1,6 +1,6 @@
 {
   "name": "run-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "run-proxy calls npm scripts either with npm or yarn",
   "main": "index.js",
   "repository": "https://github.com/soenkekluth/run-proxy",
@@ -14,6 +14,19 @@
     "echo": "echo \"echo\"",
     "start": "echo \"Error: no start specified\""
   },
+  "keywords": [
+    "npm",
+    "yarn",
+    "run",
+    "script",
+    "run-script",
+    "npm run",
+    "yarn run",
+    "proxy",
+    "npm-script",
+    "npm-run",
+    "yarn run"
+  ],
   "dependencies": {
     "command-exists": "^1.0.2",
     "minimist": "^1.2.0"
