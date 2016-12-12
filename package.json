@@ -1,0 +1,21 @@
+{
+  "name": "run-proxy",
+  "version": "1.0.0",
+  "description": "run-proxy calls npm scripts either with npm or yarn",
+  "main": "index.js",
+  "repository": "https://github.com/soenkekluth/run-proxy",
+  "author": "Sönke Kluth <mail@soenkekluth.com>",
+  "license": "MIT",
+  "bin": {
+    "run": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && node index.js echo",
+    "echo": "echo \"echo\"",
+    "start": "echo \"Error: no start specified\""
+  },
+  "dependencies": {
+    "command-exists": "^1.0.2",
+    "minimist": "^1.2.0"
+  }
+}
