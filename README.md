@@ -1,4 +1,6 @@
 # run-proxy
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/soenkekluth/run-proxy.svg)](https://greenkeeper.io/)
 run-proxy calls npm scripts either with npm or yarn (if used)
 
 
